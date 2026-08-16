@@ -1,10 +1,10 @@
 package org.example.app;
 
-import org.example.view.AgendaView;
+import org.example.view.BibliotecaView;
 
 public class Main {
     public static void main(String[] args) {
-        AgendaView vista = new AgendaView();
-        vista.iniciar();
+        BibliotecaView vista = new BibliotecaView();
+        vista.mostrarMenu();
     }
 }
